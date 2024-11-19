@@ -33,7 +33,7 @@ export default function SignUpPage() {
   }
 
   return (
-    <div className="w-4/5 h-[650px] max-w-[1000px] bg-red-600 flex flex-row shadow-xl rounded-[2px]">
+    <div className="w-4/5 h-[650px] max-w-[1000px] bg-primary flex flex-row shadow-xl rounded-[2px]">
       <div className="w-1/2 flex justify-center items-center flex-col">
         <h2 className="text-[3rem] text-white">Welcome Back!</h2>
         <p className="text-center text-white">
@@ -109,7 +109,7 @@ export default function SignUpPage() {
               />
               <div className="flex justify-center">
                 <Button
-                  className="w-1/2 bg-red-600 font-bold uppercase"
+                  className="w-1/2 bg-primary font-bold uppercase"
                   type="submit"
                 >
                   Sign Up

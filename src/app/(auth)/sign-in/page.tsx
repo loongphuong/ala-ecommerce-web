@@ -32,7 +32,7 @@ export default function SignInPage() {
   }
 
   return (
-    <div className="w-4/5 h-[650px] max-w-[1000px] bg-red-600 flex flex-row shadow-xl rounded-[2px]">
+    <div className="w-4/5 h-[650px] max-w-[1000px] bg-primary flex flex-row shadow-xl rounded-[2px]">
       <div className="w-1/2 bg-white px-10 py-0">
         <h2 className="text-[3.6rem] text-center mt-[50px] mb-5">Sign in</h2>
         <div id="socials" className="flex justify-center">
@@ -90,7 +90,7 @@ export default function SignInPage() {
               </p>
               <div className="flex justify-center">
                 <Button
-                  className="w-1/2 bg-red-600 font-bold uppercase"
+                  className="w-1/2 bg-primary font-bold uppercase"
                   type="submit"
                 >
                   Sign In
