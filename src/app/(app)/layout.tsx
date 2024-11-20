@@ -1,6 +1,6 @@
 import { Nav } from "../../components/nav";
 
-export default function AuthLayout({
+export default function AppLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

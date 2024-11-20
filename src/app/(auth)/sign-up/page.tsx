@@ -41,7 +41,7 @@ export default function SignUpPage() {
         </p>
         <Link
           href="/sign-in"
-          className="mt-5 text-white font-bold uppercase py-2.5 px-6 border-[thin] border-solid border-[white] rounded-xl"
+          className="mt-5 text-white font-bold uppercase py-2.5 px-6 border-[thin] border-solid border-[white] rounded-[25px]"
         >
           Sign In
         </Link>
